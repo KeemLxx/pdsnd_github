@@ -7,7 +7,7 @@
 Explore US Bikeshare Data
 
 ### Description
-The project was about system to inquiry the rental bikes during specific cit, month, and day.
+The project was about system to inquiry the rental bikes during specific city, month, and day.
 
 ### Files used
 I had use these files:
@@ -17,4 +17,7 @@ new york city
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+
+### Time spent in delivering python project
+I spent 5 days in learning and submitting then fixing codes in the python project
 
