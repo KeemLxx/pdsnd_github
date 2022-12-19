@@ -7,7 +7,7 @@ Include the date you created this project and README file.
 Replace the Project Title
 
 ### Description
-Describe what your project is about and what it does
+The project was about system to inquiry the rental bikes during specific cit, month, and day.
 
 ### Files used
 I had use these files:
