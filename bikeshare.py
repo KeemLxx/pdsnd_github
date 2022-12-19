@@ -175,8 +175,8 @@ def user_stats(df,city):
     start_time = time.time()
 
     # TO DO: Display counts of user types
-    #count_of_user_types = df.groupby(['Gender'])['User Type'].count()
-    count_of_user_types = df['User Type'].value_counts().sum()
+    count_of_user_types = df.groupby(['Gender'])['User Type'].count()
+    #count_of_user_types = df['User Type'].value_counts().sum()
     print("The counts of user type is: ", count_of_user_types)
 
 
@@ -199,7 +199,7 @@ def user_stats(df,city):
 def show_row_data(df):
     start_loc = 0
     while True:
-        view_raw_data = input("Would you like to view 5 rows of individual trip data? Enter 'y' or 'n'").lower() 
+        view_raw_data = input("Would you like to view 6 rows of individual trip data? Enter 'y' or 'n'").lower()
         if view_raw_data == "y":
             print( df.iloc[ start_loc : start_loc + 6] )
             start_loc += 6
