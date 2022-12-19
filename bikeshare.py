@@ -201,8 +201,8 @@ def show_row_data(df):
     while True:
         view_raw_data = input("Would you like to view 5 rows of individual trip data? Enter 'y' or 'n'").lower() 
         if view_raw_data == "y":
-            print( df.iloc[ start_loc : start_loc + 5] )
-            start_loc += 5
+            print( df.iloc[ start_loc : start_loc + 6] )
+            start_loc += 6
         elif view_raw_data == "n":
             break
         else:
